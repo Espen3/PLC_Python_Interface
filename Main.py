@@ -7,7 +7,7 @@ from plc_write     import write
 from plc_monitor   import monitor
 from plc_structure import structure
 
-PLC_IP ='192.168.10.200'
+PLC_IP ='[enter IP address]'
 
 def main():
     while True:
