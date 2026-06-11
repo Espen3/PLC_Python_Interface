@@ -1,2 +1,2 @@
 # PLC_Python_Interface
-Used to interface with Logix controller PLCs. This was built leveraging the pycomm3, time,
+Used to interface with Logix controller PLCs. The main PLC that was used was the 1769-L18ERM/B LOGIX5318ERM. This was built leveraging the pycomm3, time, os, json, and datetime modules. Not all of the features work such as PLC_write, change mod, and plc snapshot options. I connected to the PLC via EtherNet/IP protocol (port 44818). This script was mainly used to conduct enumeration and penetration testing on the PLC.
